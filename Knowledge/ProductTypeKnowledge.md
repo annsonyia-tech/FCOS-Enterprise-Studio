@@ -506,6 +506,22 @@ Future innovations shall extend this library.
 
 ---
 
+Product Type is determined after Category and before Product Subtype.
+
+Department
+
+↓
+
+Category
+
+↓
+
+Product Type
+
+↓
+
+Product Subtype
+
 # 19. Future Product Type Extensions
 
 FCOS shall automatically support future product types, construction-based products, commercial naming conventions, regional fashion terminology, and luxury retail classifications without requiring architectural changes.
