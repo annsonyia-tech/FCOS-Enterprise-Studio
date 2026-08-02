@@ -1,90 +1,117 @@
 # FCOS Enterprise Studio
-# Product Naming Engine
-Version: 1.0
+
+# Product Naming Specification
+
+Version: FCOS AI Studio Enterprise v2.1.1
+
+Status: Architecture Frozen
 
 ---
 
 # Purpose
 
-This document defines the SEO Product Naming Engine used by FCOS Enterprise Studio.
+This specification defines the Product Naming Engine used by FCOS Enterprise Studio.
 
-Its responsibility is to generate unique, human-readable, SEO-optimized luxury product names for every catalog item.
+The Product Naming Engine is responsible for generating unique, SEO-optimized, luxury editorial product names that accurately describe the product while maintaining commercial searchability, catalog consistency, and enterprise-level naming standards.
 
-No other product attributes are defined in this document.
+This document governs only Product Name generation.
+
+It does not define Style Information, Measurements, Descriptions, Validation, or Evidence Hierarchy.
 
 ---
 
-# Naming Objectives
+# Product Naming Objectives
 
-Every product name shall be:
+Every Product Name shall be:
 
+- Unique within the catalog
 - SEO optimized
 - Human readable
-- Luxury editorial in tone
+- Luxury fashion oriented
 - Commercially searchable
-- Unique within the catalog
-- Free from redundant words
+- Factually accurate
+- Evidence based
+- Free from unnecessary words
+
+---
+
+# Evidence Hierarchy
+
+Product Naming shall always follow:
+
+Excel Workbook
+
+↓
+
+Catalog Description
+
+↓
+
+Visual AI
+
+↓
+
+Fashion Intelligence
+
+Higher-priority evidence always overrides lower-priority evidence.
 
 ---
 
 # Product Name Length
 
-Product Name must contain:
+Every Product Name shall contain:
 
-- Minimum: 5 words
-- Maximum: 8 words
+Minimum:
+5 words
 
-Do not exceed 8 words.
+Maximum:
+8 words
 
----
-
-# Product Type Selection
-
-If the garment has a visually identifiable special construction or silhouette, use the specific Product Type.
-
-Examples:
-
-- Saree Gown
-- Tiered Lehenga
-- Peplum Kurti
-- Cape Gown
-- Jacket Kurta Set
-- Kaftan Dress
-- Angrakha Kurta
-- Anarkali Kurta
-- Co-Ord Set
-- Indo Western Set
-
-Otherwise use the standard Product Type.
-
-Examples:
-
-- Saree
-- Kurti
-- Kurta
-- Lehenga
-- Salwar Suit
-- Sherwani
+Never exceed eight words.
 
 ---
 
-# Naming Formula
+# Product Naming Components
+
+The Product Name may contain the following components.
+
+- Colour
+- Pattern
+- Work Detail
+- Primary Fabric
+- Product Subtype
+- Design Aesthetic
+- Product Type
+
+Only include components supported by the Evidence Hierarchy.
+
+---
+
+# Product Naming Formula
 
 ## Rule 1 — Unique Colour
 
-If Colour is unique within the catalog:
+When the Colour is unique within the catalog:
 
 Colour
-+
+
+↓
+
 Pattern
-+
-Work
-+
-Fabric
-+
+
+↓
+
+Work Detail
+
+↓
+
+Primary Fabric
+
+↓
+
 Product Type
 
-Example:
+Example
 
 Rani Pink Floral Zari Silk Blend Lehenga
 
@@ -92,47 +119,69 @@ Rani Pink Floral Zari Silk Blend Lehenga
 
 ## Rule 2 — Duplicate Colour
 
-If Colour already exists:
+When the Colour already exists:
 
 Colour
-+
+
+↓
+
 Pattern
-+
-Work
-+
-Fabric
-+
+
+↓
+
+Work Detail
+
+↓
+
+Primary Fabric
+
+↓
+
 Product Subtype
-+
+
+↓
+
 Product Type
 
-Example:
+Example
 
-Black Floral Mirror Tiered Lehenga
+Black Mirror Cotton Tiered Lehenga
 
 ---
 
 ## Rule 3 — Still Duplicate
 
-If the product name is still duplicated:
+If duplication still exists:
 
 Colour
-+
+
+↓
+
 Pattern
-+
-Work
-+
-Fabric
-+
+
+↓
+
+Work Detail
+
+↓
+
+Primary Fabric
+
+↓
+
 Product Subtype
-+
+
+↓
+
 Design Aesthetic
-+
+
+↓
+
 Product Type
 
-Example:
+Example
 
-Black Floral Mirror Tiered Heritage Lehenga
+Black Mirror Cotton Tiered Heritage Lehenga
 
 ---
 
@@ -146,25 +195,25 @@ If Pattern Detail is:
 - Missing
 - Not Available
 
-Do not include Pattern in the Product Name.
+Remove Pattern completely.
 
 Example
 
 Incorrect
 
-Black Solid Kutchi Work Cotton Lehenga
+Black Solid Kutchi Cotton Lehenga
 
 Correct
 
-Black Kutchi Work Cotton Lehenga
+Black Kutchi Cotton Lehenga
 
 ---
 
-# Work Rules
+# Work Detail Rules
 
-Include Work only when decorative work is present.
+Include Work Detail only when decorative craftsmanship exists.
 
-Examples:
+Examples
 
 - Zari
 - Mirror
@@ -172,37 +221,224 @@ Examples:
 - Thread
 - Resham
 - Gota Patti
-- Sequins
-- Beadwork
-- Embroidery
 - Chikankari
 - Kantha
+- Sequin
+- Beadwork
+- Embroidery
+- Foil Print
 
-If decorative work is absent, omit Work.
+If no decorative work exists,
+
+omit Work Detail.
 
 ---
 
 # Fabric Rules
 
-Include the primary visible fabric.
+Always include the primary commercial fabric.
 
-Examples:
+Examples
 
-- Cotton
 - Silk Blend
-- Organza
+- Cotton
 - Linen
-- Rayon
+- Organza
 - Georgette
+- Rayon
+- Muslin
 - Velvet
 - Chanderi
 - Banarasi Silk
+- Kora Cotton
+
+Fabric shall always follow the Evidence Hierarchy.
 
 ---
 
-# Product Name Restrictions
+# Product Type Rules
 
-Never end a Product Name with:
+FCOS shall identify the most specific commercially accepted Product Type.
+
+When a visually identifiable construction or silhouette exists,
+
+use the construction-based Product Type instead of the generic Product Type.
+
+Examples
+
+Instead of
+
+Kurti
+
+Use
+
+Peplum Kurti
+
+---
+
+Instead of
+
+Dress
+
+Use
+
+Kaftan Dress
+
+---
+
+Instead of
+
+Lehenga
+
+Use
+
+Tiered Lehenga
+
+---
+
+Instead of
+
+Kurta Set
+
+Use
+
+Jacket Kurta Set
+
+---
+
+Instead of
+
+Saree
+
+Use
+
+Ready-to-Wear Saree
+
+---
+
+# Product Subtype Rules
+
+Use Product Subtype only when required for uniqueness.
+
+Examples
+
+Designer Kurta Set
+
+Tiered Lehenga
+
+Panelled Kurti
+
+Straight Kurta
+
+Cape Gown
+
+Gathered Dress
+
+Printed Saree
+
+Embroidered Co-Ord Set
+
+---
+
+# Design Aesthetic Rules
+
+Design Aesthetic shall only be added when:
+
+Product Name remains duplicated after Product Subtype.
+
+Examples
+
+Regal Heritage
+
+Modern Glamour
+
+Minimal Elegance
+
+Artisan Luxury
+
+Contemporary Chic
+
+Royal Opulence
+
+Bohemian Charm
+
+---
+
+# Component Priority
+
+Product Name components shall always appear in the following order.
+
+Colour
+
+↓
+
+Pattern
+
+↓
+
+Work Detail
+
+↓
+
+Primary Fabric
+
+↓
+
+Product Subtype
+
+↓
+
+Design Aesthetic
+
+↓
+
+Product Type
+
+No other ordering is permitted.
+
+---
+
+# Component Omission Rules
+
+Omit any component that cannot be verified through the Evidence Hierarchy.
+
+Never invent:
+
+- Pattern
+- Work
+- Fabric
+- Product Type
+- Product Subtype
+- Design Aesthetic
+
+Unsupported components shall not appear in the Product Name.
+
+---
+
+# Prohibited Words
+
+Never include:
+
+- Beautiful
+- Stylish
+- Premium
+- Fancy
+- Elegant
+- Gorgeous
+- Trending
+- Latest
+- New Arrival
+- Collection
+- Exclusive
+- Best
+
+These words add no SEO value.
+
+---
+
+# Prohibited Endings
+
+Product Names shall never end with:
 
 - Set
 - With Dupatta
@@ -211,40 +447,63 @@ Never end a Product Name with:
 - Collection
 - Dress Material
 
-Never use:
-
-- Beautiful
-- Stylish
-- Fancy
-- Premium
-- Designer
-- New Arrival
-- Latest
-- Trending
-
-These words add no SEO value.
+The Product Name must clearly identify the primary product.
 
 ---
 
-# Product Name Quality Rules
+# SEO Rules
 
-Every Product Name must:
+Every Product Name shall:
 
-✓ Be unique
+✓ Include the primary fabric
 
-✓ Read naturally
+✓ Include the Product Type
 
-✓ Follow the naming formula
-
-✓ Avoid duplicated words
-
-✓ Avoid unnecessary adjectives
+✓ Be human readable
 
 ✓ Be commercially searchable
 
-✓ Preserve luxury editorial quality
+✓ Use luxury fashion terminology
 
-✓ Match the actual product
+✓ Avoid unnecessary repetition
+
+✓ Avoid keyword stuffing
+
+✓ Remain between five and eight words
+
+---
+
+# Quality Validation
+
+Every Product Name shall satisfy:
+
+✓ Unique within the catalog
+
+✓ 5–8 words
+
+✓ SEO optimized
+
+✓ Human readable
+
+✓ Luxury editorial tone
+
+✓ Evidence based
+
+✓ No duplicate words
+
+✓ Correct Product Type
+
+✓ Correct Product Subtype
+
+✓ Correct Fabric
+
+✓ Correct Colour
+
+✓ Correct ordering
+
+✓ No prohibited endings
+
+✓ No prohibited words
 
 ---
 
@@ -252,24 +511,29 @@ Every Product Name must:
 
 ## Example 1
 
-Colour:
+Colour
+
 Rani Pink
 
-Pattern:
-Floral
+Pattern
 
-Work:
-Zari
+Heritage Motif
 
-Fabric:
+Work
+
+Zari Embroidery
+
+Fabric
+
 Silk Blend
 
-Type:
+Product Type
+
 Lehenga
 
 Output
 
-Rani Pink Floral Zari Silk Blend Lehenga
+Rani Pink Heritage Zari Silk Blend Lehenga
 
 ---
 
@@ -277,9 +541,15 @@ Rani Pink Floral Zari Silk Blend Lehenga
 
 Pattern = Solid
 
+Work = Kutchi
+
+Fabric = Kora Cotton
+
+Product Type = Tiered Lehenga
+
 Output
 
-Black Kutchi Work Cotton Lehenga
+Black Kutchi Kora Cotton Tiered Lehenga
 
 ---
 
@@ -289,7 +559,7 @@ Duplicate Colour
 
 Output
 
-Black Kutchi Work Cotton Tiered Lehenga
+Black Mirror Cotton Tiered Lehenga
 
 ---
 
@@ -299,4 +569,44 @@ Still Duplicate
 
 Output
 
-Black Kutchi Work Cotton Tiered Heritage Lehenga
+Black Mirror Cotton Tiered Heritage Lehenga
+
+---
+
+# Scope
+
+This specification governs only Product Name generation.
+
+# Conflict Resolution Order
+
+Colour
+↓
+
+Pattern
+↓
+
+Work Detail
+↓
+
+Primary Fabric
+↓
+
+Product Subtype
+↓
+
+Design Aesthetic
+↓
+
+Construction (if still required)
+↓
+
+Silhouette (if still required)
+
+
+Related specifications:
+
+- EvidenceHierarchy.md
+- StyleInformation.md
+- MeasurementRules.md
+- DescriptionEngine.md
+- Validation.md
