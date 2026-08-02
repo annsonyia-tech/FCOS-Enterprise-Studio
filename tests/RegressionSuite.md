@@ -493,6 +493,361 @@ Only then may the release be marked as Production Ready.
 
 ---
 
+---
+
+# Fashion Knowledge Regression
+
+## Purpose
+
+The Fashion Knowledge Regression Engine ensures that every new FCOS release maintains or improves its fashion intelligence capabilities.
+
+Its objective is to prevent future updates from reducing FCOS's ability to correctly recognize, classify, and describe fashion products.
+
+Unlike formatting validation, Fashion Knowledge Regression evaluates the underlying fashion reasoning of the AI.
+
+---
+
+# Objectives
+
+The Fashion Knowledge Regression Engine shall:
+
+✓ Preserve previously validated fashion knowledge
+
+✓ Detect classification regressions
+
+✓ Detect loss of fashion vocabulary
+
+✓ Detect reduced styling intelligence
+
+✓ Detect weaker editorial understanding
+
+✓ Preserve enterprise fashion consistency
+
+---
+
+# Knowledge Domains
+
+The following fashion domains shall be continuously monitored.
+
+## Product Classification
+
+Verify recognition of:
+
+- Product Type
+- Product Subtype
+- Hybrid Product Type
+- Multi-piece Ensembles
+- Future Product Types
+
+Examples
+
+- Cape Gown
+- Saree Gown
+- Lehenga Saree
+- Jacket Kurta Set
+- Kaftan Dress
+- Angrakha Kurta
+- Co-Ord Set
+- Tiered Dress
+
+Regression Example
+
+Previous Release
+
+Cape Attached Anarkali
+
+↓
+
+Current Release
+
+Anarkali Suit
+
+Result
+
+❌ Fashion Knowledge Regression
+
+---
+
+## Garment Construction
+
+Verify recognition of constructions including:
+
+- A-Line
+- Straight
+- Tiered
+- Gathered
+- Circular
+- Panelled
+- Empire
+- Peplum
+- Cape Attached
+- Jacket Layered
+- Angrakha
+- Kaftan
+- High-Low
+- Draped
+- Wrap
+
+Regression occurs if a previously recognised construction becomes generic.
+
+---
+
+## Silhouette Recognition
+
+Examples
+
+- Flared
+- Straight
+- Mermaid
+- Fit & Flare
+- Circular
+- Relaxed
+- Slim
+- Oversized
+
+Silhouette accuracy shall never decrease between releases.
+
+---
+
+## Sleeve Intelligence
+
+Verify recognition of:
+
+- Puff Sleeves
+- Bell Sleeves
+- Cape Sleeves
+- Flutter Sleeves
+- Bishop Sleeves
+- Balloon Sleeves
+- Kimono Sleeves
+- Raglan Sleeves
+- Dolman Sleeves
+- Elbow Sleeves
+- Full Sleeves
+- Sleeveless
+
+Regression occurs when a distinctive sleeve style becomes generic.
+
+---
+
+## Neckline Intelligence
+
+Verify recognition of:
+
+- Sweetheart Neck
+- Square Neck
+- Boat Neck
+- V Neck
+- Round Neck
+- Halter Neck
+- Keyhole Neck
+- Queen Anne Neck
+- Mandarin Collar
+- Shirt Collar
+- Cowl Neck
+
+Regression occurs when a previously recognised neckline becomes generic or incorrect.
+
+---
+
+## Pattern Intelligence
+
+Examples
+
+- Floral Printed
+- Paisley Woven
+- Heritage Motif
+- Geometric
+- Abstract
+- Ikat
+- Ajrakh
+- Kalamkari
+- Bandhani
+- Leheriya
+- Chevron
+- Striped
+
+Regression occurs if pattern recognition becomes less specific.
+
+---
+
+## Work Detail Intelligence
+
+Examples
+
+- Zari Embroidery
+- Resham Embroidery
+- Mirror Work
+- Sequin Embroidery
+- Thread Embroidery
+- Kutchi Work
+- Gota Patti
+- Dori Work
+- Bead Work
+- Stone Work
+- Foil Print
+- Digital Print
+
+Regression occurs when decorative craftsmanship is simplified or lost.
+
+---
+
+## Fabric Intelligence
+
+Verify recognition of:
+
+- Silk Blend
+- Cotton
+- Linen
+- Organza
+- Net
+- Chiffon
+- Georgette
+- Tissue Silk
+- Banarasi Silk
+- Chanderi
+- Kora Cotton
+- Velvet
+- Rayon
+- Modal
+- Muslin
+
+Regression occurs when previously identified fabrics become incorrect or generic.
+
+---
+
+## Style Identity Intelligence
+
+Examples
+
+- Heritage Elegance
+- Contemporary Chic
+- Minimal Luxe
+- Timeless Grace
+- Bohemian Charm
+- Festive Glamour
+- Indo-Western Fusion
+- Modern Classic
+
+Regression occurs when the assigned fashion identity no longer aligns with the product.
+
+---
+
+## Design Aesthetic Intelligence
+
+Examples
+
+- Regal Heritage
+- Artisan Craft
+- Floral Romance
+- Modern Glamour
+- Minimal Elegance
+- Royal Opulence
+- Contemporary Minimalism
+- Vintage Revival
+
+Regression occurs when aesthetic interpretation weakens or becomes inconsistent.
+
+---
+
+## Occasion Intelligence
+
+Examples
+
+- Wedding
+- Reception
+- Mehendi
+- Haldi
+- Cocktail
+- Sangeet
+- Festive Wear
+- Party Wear
+- Casual Wear
+- Office Wear
+
+Regression occurs when occasion inference becomes less accurate.
+
+---
+
+# Fashion Vocabulary Regression
+
+FCOS shall maintain and expand its fashion vocabulary over time.
+
+Regression shall be reported if:
+
+- Rich terminology becomes generic.
+- Luxury editorial vocabulary decreases.
+- Construction terminology is lost.
+- Styling vocabulary becomes repetitive.
+- Narrative richness declines.
+
+---
+
+# Classification Confidence
+
+Each recognised fashion attribute shall be assigned one of the following confidence levels:
+
+| Confidence | Meaning |
+|------------|---------|
+| High | Supported directly by Excel or Catalog Description |
+| Medium | Clearly supported by Visual AI |
+| Low | Derived through Fashion Intelligence reasoning |
+
+Only High and Medium confidence attributes shall be emitted automatically.
+
+Low confidence attributes shall only be included when they do not contradict higher-priority evidence.
+
+---
+
+# Fashion Knowledge Score
+
+Each release shall be evaluated across the following domains:
+
+| Domain | Weight |
+|---------|-------:|
+| Product Classification | 20 |
+| Construction Recognition | 15 |
+| Silhouette Recognition | 10 |
+| Sleeve Intelligence | 10 |
+| Neckline Intelligence | 10 |
+| Pattern Intelligence | 10 |
+| Work Detail Intelligence | 10 |
+| Fabric Intelligence | 10 |
+| Style Identity | 5 |
+| Design Aesthetic | 5 |
+| Occasion Intelligence | 5 |
+
+Maximum Score
+
+100
+
+Minimum Enterprise Threshold
+
+98
+
+---
+
+# Fashion Regression Report
+
+Each FCOS release shall generate a Fashion Knowledge Report containing:
+
+- Newly learned fashion concepts
+- Improved classifications
+- Regressed classifications
+- Newly supported constructions
+- Newly supported silhouettes
+- Vocabulary growth
+- Accuracy score
+- Overall Fashion Knowledge Score
+
+---
+
+# Continuous Learning Principle
+
+FCOS shall evolve by expanding its Fashion Knowledge Base while preserving all previously validated capabilities.
+
+No future update shall reduce recognition accuracy for any previously supported product type, construction, silhouette, fabric, pattern, work detail, neckline, sleeve style, design aesthetic, style identity, or occasion unless explicitly approved through a versioned specification update.
+
 # Scope
 
 This specification governs regression testing only.
