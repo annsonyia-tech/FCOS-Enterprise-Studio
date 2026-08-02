@@ -421,6 +421,18 @@ Future fashion categories shall automatically extend this taxonomy.
 
 ---
 
+Category sits below Department and above Product Type.
+
+Department
+↓
+
+Category
+↓
+
+Product Type
+
+Category defines the merchandise family.
+
 # 14. Future Category Extensions
 
 FCOS shall support future commercial categories, marketplace classifications, luxury retail taxonomy, and regional terminology without requiring architectural changes.
