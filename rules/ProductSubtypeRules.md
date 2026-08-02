@@ -331,6 +331,16 @@ Validation Engine shall verify:
 
 ---
 
+Validation shall verify that:
+
+Product Subtype belongs to the detected Product Type.
+
+Product Type belongs to the detected Category.
+
+Category belongs to the detected Department.
+
+---
+
 # 13. Output Rules
 
 Product Subtype shall be:
