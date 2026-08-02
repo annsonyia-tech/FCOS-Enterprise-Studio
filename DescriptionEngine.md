@@ -318,3 +318,20 @@ Every generated description must satisfy:
 <br>
 <strong>Fit & Delivery Information:</strong> [DELIVERY INFORMATION]
 </p>
+
+
+
+Description Validation Checklist
+
+□ Exactly 4 HTML paragraphs
+□ Valid HTML tags
+□ 150–180 words (excluding Paragraph 4)
+□ Luxury editorial tone
+□ SEO optimized
+□ Product facts derived from Evidence Hierarchy
+□ Exactly 2 occasions
+□ Exactly 1 styling suggestion
+□ Correct Care Instruction
+□ Correct Delivery Information
+□ No duplicated sentences across products
+□ No unsupported claims
