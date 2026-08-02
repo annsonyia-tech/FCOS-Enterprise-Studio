@@ -94,7 +94,6 @@ Construction
 ↓
 
 Silhouette
-
 ---
 
 # 5. Product Type Priority
