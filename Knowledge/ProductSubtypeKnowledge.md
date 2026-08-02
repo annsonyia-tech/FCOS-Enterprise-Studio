@@ -522,6 +522,10 @@ Future innovations shall automatically extend this library.
 
 ---
 
+Product Subtype represents the most specific commercially recognized variant of the Product Type.
+
+Construction and Silhouette may influence Product Subtype but remain independent fashion attributes.
+
 # 16. Future Product Subtype Extensions
 
 FCOS shall support future commercial subtypes, construction-based variants, regional terminology, marketplace classifications, luxury retail terminology, and emerging fashion trends without requiring architectural changes.
