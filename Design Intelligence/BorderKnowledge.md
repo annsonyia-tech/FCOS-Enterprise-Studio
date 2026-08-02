@@ -32,6 +32,48 @@ Visual AI may determine Border only when higher-priority evidence is unavailable
 
 ---
 
+This deserves its own engine.
+
+Examples
+
+Temple Border
+
+Contrast Border
+
+Zari Border
+
+Scalloped Border
+
+Banarasi Border
+
+Embroidered Border
+
+Mirror Border
+
+Lace Border
+
+Fringed Border
+
+Printed Border
+
+Minimal Border
+
+Heavy Bridal Border
+
+Traditional Border
+
+Kaddi Border
+
+Gap Border
+
+Retta Pettu
+
+Korvai Border
+
+Border is one of the strongest purchase drivers for sarees and lehengas.
+
+---
+
 # Definition
 
 Border describes the decorative finishing or edging applied to garments.
