@@ -234,3 +234,83 @@ Validation shall remain independent of generation.
 Regression testing shall protect all enterprise behavior.
 
 FCOS shall remain modular, scalable, extensible, and version-controlled.
+
+# Enterprise Product Classification Hierarchy
+
+FCOS classifies every product using the following hierarchical model:
+
+Department
+↓
+Category
+↓
+Product Type
+↓
+Product Subtype
+↓
+Construction
+↓
+Silhouette
+↓
+Pattern
+↓
+Work
+↓
+Style Identity
+↓
+Design Aesthetic
+
+This hierarchy separates commercial product classification from physical design characteristics and forms the foundation of all FCOS Fashion Intelligence modules.
+
+## Layer Definitions
+
+Department
+The highest business grouping.
+Examples:
+Women's Wear
+Men's Wear
+Kids' Wear
+Jewellery
+
+Category
+The commercial merchandise family.
+Examples:
+Ethnic Wear
+Western Wear
+Fusion Wear
+Indo-Western
+Fine Jewellery
+
+Product Type
+The primary commercial product being purchased.
+Examples:
+Lehenga
+Saree
+Kurta Set
+Dress
+Sherwani
+
+Product Subtype
+The recognized commercial variation of the Product Type.
+Examples:
+Tiered Designer Lehenga
+Ready-to-Wear Saree
+Jacket Kurta Set
+Cape Gown
+
+Construction
+The structural engineering of the garment.
+
+Silhouette
+How the garment falls on the body.
+
+Pattern
+The surface visual design.
+
+Work
+Decorative craftsmanship.
+
+Style Identity
+The fashion personality.
+
+Design Aesthetic
+The overall visual language.
