@@ -1,0 +1,453 @@
+# FCOS Enterprise
+## Dyeing & Printing Intelligence Engine
+Version: 1.0
+Status: Architecture Frozen
+
+---
+
+# Purpose
+
+This document defines the Dyeing & Printing Intelligence Engine used by FCOS Enterprise.
+
+Its purpose is to identify, normalize, classify, and describe all textile dyeing and printing techniques used across women's wear, men's wear, kids' wear, jewellery accessories, ethnic wear, indo-western wear, and western wear.
+
+Dyeing & Printing is independent of:
+
+• Fabric
+• Work Detail
+• Construction
+• Silhouette
+• Textile Finish
+
+Evidence Hierarchy
+
+1. Excel
+2. Catalog Description
+3. Visual AI
+4. Fashion Reasoning
+
+Visual AI may determine Dyeing or Printing only when higher-priority evidence is unavailable.
+
+---
+
+# Definition
+
+Dyeing
+
+The process of colouring textile fibres, yarns, fabrics, or garments.
+
+Printing
+
+The process of applying decorative designs, motifs, or colours onto textile surfaces.
+
+---
+
+# Dyeing Categories
+
+## Solid Dyeing
+
+Solid Dyed
+
+Piece Dyed
+
+Yarn Dyed
+
+Garment Dyed
+
+Vat Dyed
+
+Reactive Dyed
+
+Pigment Dyed
+
+Direct Dyed
+
+Disperse Dyed
+
+Sulphur Dyed
+
+Natural Dyed
+
+Vegetable Dyed
+
+Mineral Dyed
+
+Eco Dyed
+
+Herbal Dyed
+
+---
+
+## Resist Dyeing
+
+Bandhani
+
+Bandhej
+
+Leheriya
+
+Tie Dye
+
+Shibori
+
+Clamp Dye
+
+Fold Dye
+
+Wax Resist
+
+Batik
+
+Mud Resist
+
+Ikat Resist
+
+---
+
+## Gradient Dyeing
+
+Ombre Dye
+
+Dip Dye
+
+Spray Dye
+
+Gradient Dye
+
+Multi Tone Dye
+
+Colour Fade
+
+Hand Dyed
+
+---
+
+# Printing Categories
+
+## Block Printing
+
+Hand Block Print
+
+Wood Block Print
+
+Sanganeri Print
+
+Bagru Print
+
+Dabu Print
+
+Ajrakh Print
+
+Kalamkari Print
+
+---
+
+## Screen Printing
+
+Screen Print
+
+Pigment Print
+
+Discharge Print
+
+Rotary Screen Print
+
+Flat Screen Print
+
+---
+
+## Digital Printing
+
+Digital Print
+
+Digital Floral Print
+
+Digital Abstract Print
+
+Photo Print
+
+High Definition Print
+
+---
+
+## Traditional Indian Prints
+
+Ajrakh
+
+Bagru
+
+Dabu
+
+Kalamkari
+
+Bandhani Print
+
+Bandhej Print
+
+Leheriya Print
+
+Sanganeri Print
+
+Ikat Print
+
+Batik Print
+
+Madhubani Print
+
+Warli Print
+
+Pattachitra Print
+
+Gond Print
+
+---
+
+## Contemporary Prints
+
+Abstract Print
+
+Floral Print
+
+Botanical Print
+
+Paisley Print
+
+Animal Print
+
+Graphic Print
+
+Typography Print
+
+Geometric Print
+
+Stripe Print
+
+Check Print
+
+Polka Dot Print
+
+Chevron Print
+
+Colour Block Print
+
+Camouflage Print
+
+Minimal Print
+
+Ethnic Print
+
+Nature Inspired Print
+
+---
+
+## Foil & Metallic Printing
+
+Foil Print
+
+Metallic Print
+
+Gold Foil Print
+
+Silver Foil Print
+
+Glitter Print
+
+Pearl Print
+
+---
+
+# Printing Normalization
+
+Normalize supplier wording.
+
+Examples
+
+Digital Printed
+
+↓
+
+Digital Print
+
+Printed Floral
+
+↓
+
+Floral Print
+
+Ajrakh Printed
+
+↓
+
+Ajrakh Print
+
+Bandhani Printed
+
+↓
+
+Bandhani Print
+
+Floral Digital Printed
+
+↓
+
+Digital Floral Print
+
+---
+
+# Dyeing Normalization
+
+Tie & Dye
+
+↓
+
+Tie Dye
+
+Hand Dyed Fabric
+
+↓
+
+Hand Dyed
+
+Gradient Colour
+
+↓
+
+Ombre Dye
+
+---
+
+# Pattern vs Printing
+
+Printing describes
+
+↓
+
+How the design is applied.
+
+Pattern describes
+
+↓
+
+What the design is.
+
+Example
+
+Printing Technique
+
+Digital Print
+
+Pattern
+
+Floral
+
+Style Information
+
+Pattern Detail:
+
+Floral Digital Print
+
+NOT
+
+Pattern Detail:
+
+Digital Print
+
+---
+
+# Work vs Printing
+
+Printing
+
+↓
+
+Foil Print
+
+Work
+
+↓
+
+Mirror Work
+
+Correct
+
+Pattern Detail:
+Floral Foil Print
+
+Work Detail:
+Mirror Work
+
+---
+
+# Detection Rules
+
+Use Excel.
+
+↓
+
+If unavailable
+
+Use Catalog Description.
+
+↓
+
+If unavailable
+
+Use Visual AI.
+
+↓
+
+If unavailable
+
+Use Fashion Reasoning.
+
+Never overwrite Excel.
+
+---
+
+# Multiple Technique Rule
+
+If multiple dyeing or printing techniques exist
+
+List all major techniques.
+
+Example
+
+Pattern Detail
+
+Ajrakh Hand Block Print
+
+Example
+
+Floral Digital Print
+
+Example
+
+Bandhani Tie Dye
+
+---
+
+# Confidence Rule
+
+If confidence is insufficient
+
+↓
+
+Omit the field.
+
+Never invent dyeing or printing techniques.
+
+---
+
+# Future-Proof Rule
+
+FCOS shall recognize any commercially accepted textile dyeing or printing process supported by:
+
+Excel
+
+Catalog Description
+
+Visual AI
+
+Fashion Reasoning
+
+Unknown techniques shall be normalized using the closest accepted textile terminology.
