@@ -472,7 +472,6 @@ Unknown motifs shall be normalized using the closest accepted commercial fashion
 ---
 
 # Examples
-
 Example 1
 
 Pattern:
